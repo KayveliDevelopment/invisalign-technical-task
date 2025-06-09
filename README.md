@@ -46,6 +46,7 @@ What’s Included
 - Media, pages, and settings preloaded via db/init.sql
 
 Notes
+All Content is Dynamic
 ACF field groups are version-controlled in acf-json/
 All content and settings are loaded via init.sql
 Local media is committed under wp-content/uploads/
