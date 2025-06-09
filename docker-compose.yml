@@ -14,7 +14,7 @@ services:
       - "3307:3306"
     volumes:
       - dbdata:/var/lib/mysql
-
+      - ./db/init.sql:/docker-entrypoint-initdb.d/init.sql  
   wordpress:
     image: wordpress:latest
     container_name: wp-site
@@ -27,7 +27,7 @@ services:
      - ./theme:/var/www/html/wp-content/themes
      - ./plugins:/var/www/html/wp-content/plugins
      - ./wp-content/uploads:/var/www/html/wp-content/uploads 
-     - ./db/init.sql:/docker-entrypoint-initdb.d/init.sql  
+     
     environment:
       WORDPRESS_DB_HOST: db:3306
       WORDPRESS_DB_USER: ${WORDPRESS_DB_USER}
