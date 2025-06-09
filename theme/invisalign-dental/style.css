@@ -465,7 +465,7 @@ img, iframe, video {
 .hero-card-rating {
   position: absolute;
   bottom: 0;
-  right: -480px;
+  right: -464px;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
