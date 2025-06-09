@@ -1,0 +1,16 @@
+
+.DS_Store
+Thumbs.db
+
+.env
+wp-content/cache/
+wp-content/backups/
+*.log
+debug.log
+
+*.swp
+*.swo
+
+node_modules/
+vendor/
+
