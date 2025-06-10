@@ -43,7 +43,7 @@ What’s Included
 - Contact form section using WPForms
 - Responsive design: mobile and desktop
 - Dockerized local dev setup
-- Media, pages, and settings preloaded via db/init.sql
+- Media, pages, and settings preloaded via db/wordpress.sql
 
 Notes
 All Content is Dynamic
