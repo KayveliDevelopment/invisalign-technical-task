@@ -48,7 +48,7 @@ What’s Included
 Notes
 All Content is Dynamic
 ACF field groups are version-controlled in acf-json/
-All content and settings are loaded via init.sql
+All content and settings are loaded via wordpress.sql
 Local media is committed under wp-content/uploads/
 
  Contact
